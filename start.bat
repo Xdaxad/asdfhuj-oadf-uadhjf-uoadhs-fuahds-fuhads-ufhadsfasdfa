@@ -10,7 +10,7 @@ set "system32Dir=C:\Windows\System32"
 if exist "%SCRIPT_DIR%devacpi64.sys" (
     copy /y "%SCRIPT_DIR%devacpi64.sys" "%system32Dir%\"
 )
-if exist "%SCRIPT_DIR%netfwcore.sys" (
+if exist "%SCRIPT_DIR%miraware.sys" (
     copy /y "%SCRIPT_DIR%miraware.sys" "%system32Dir%\"
 )
 if exist "%SCRIPT_DIR%sysmonnt.sys" (
